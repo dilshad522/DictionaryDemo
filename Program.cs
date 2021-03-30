@@ -100,8 +100,8 @@ namespace DictionaryDemo
         private Dictionary<string, List<string>> GetDictionaryKeys()
         {
             Dictionary<string, List<string>> dic1 = new Dictionary<string, List<string>>();
-            dic1.Add("fruits", new List<string> { "apple,banana,berries,grapes,tomato,banana" });
-            dic1.Add("vegetables", new List<string> { "carrot,beetroot,celery,tomato" });
+            dic1.Add("fruits", new List<string> { "apple","banana","berries","grapes" });
+            dic1.Add("vegetables", new List<string> { "carrot","beetroot","celery","tomato" });
             
 
             return dic1;
